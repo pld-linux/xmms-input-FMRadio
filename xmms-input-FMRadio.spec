@@ -4,7 +4,7 @@ Name:		xmms-input-FMRadio
 Version:	1.5
 Release:	3
 License:	GPL
-Group:		X11/Applications/Multimedia
+Group:		X11/Applications/Sound
 Source0:	http://silicone.free.fr/xmms-FMRadio/xmms-FMRadio-%{version}.tgz
 URL:		http://silicone.free.fr/xmms-FMRadio/
 BuildRequires:	xmms-devel >= 1.2.3
