@@ -5,7 +5,7 @@ Version:	1.5
 Release:	3
 License:	GPL
 Group:		X11/Applications/Multimedia
-Source0:	http://silicone.free.fr/xmms-FMRadio/%{name}-%{version}.tgz
+Source0:	http://silicone.free.fr/xmms-FMRadio/xmms-FMRadio-%{version}.tgz
 URL:		http://silicone.free.fr/xmms-FMRadio/
 BuildRequires:	xmms-devel >= 1.2.3
 Requires:	xmms
@@ -21,7 +21,7 @@ FM Radio plugin for xmms.
 Wtyczka sterowania radiem FM dla xmms.
 
 %prep
-%setup -q
+%setup -q -n xmms-FMRadio-%{version}
 
 %build
 %{__make} \
