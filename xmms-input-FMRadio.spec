@@ -28,9 +28,9 @@ Wtyczka sterowania radiem FM dla xmms.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/%{xmms_input_plugindir}
+install -d $RPM_BUILD_ROOT%{xmms_input_plugindir}
 
-install libradio.so $RPM_BUILD_ROOT/%{xmms_input_plugindir}
+install libradio.so $RPM_BUILD_ROOT%{xmms_input_plugindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
