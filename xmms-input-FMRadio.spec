@@ -1,5 +1,5 @@
 Summary:	FM Radio plugin for XMMS
-Summary(pl.UTF-8):   Wtyczka wejściowa dla XMMS-a sterująca radiem FM
+Summary(pl.UTF-8):	Wtyczka wejściowa dla XMMS-a sterująca radiem FM
 Name:		xmms-input-FMRadio
 Version:	1.5
 Release:	5
